@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[Browser Started]]>
+    </line>
+    <line>
+      <![CDATA[FaceBook Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[USER NAME :markreevs0@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[PASSWORD: P@ssw0rd2]]>
+    </line>
+    <line>
+      <![CDATA[STEP8]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[Login Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Chat Icon clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[View more chat details tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP14]]>
+    </line>
+    <line>
+      <![CDATA[STEP15]]>
+    </line>
+    <line>
+      <![CDATA[SBSA South Africa value Entered]]>
+    </line>
+    <line>
+      <![CDATA[SBSA logo clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP18]]>
+    </line>
+    <line>
+      <![CDATA[Hello value entered]]>
+    </line>
+    <line>
+      <![CDATA[STEP20]]>
+    </line>
+    <line>
+      <![CDATA[STEP21]]>
+    </line>
+    <line>
+      <![CDATA[Send button clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP23]]>
+    </line>
+    <line>
+      <![CDATA[Logout dropdown button clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP25]]>
+    </line>
+    <line>
+      <![CDATA[Logout tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP27]]>
+    </line>
+    <line>
+      <![CDATA[Browser Close]]>
+    </line>
+    <line>
+      <![CDATA[STEP29]]>
+    </line>
+    <line>
+      <![CDATA[Page Load Initiated: Waiting to load page.......]]>
+    </line>
+    <line>
+      <![CDATA[Page Load Status: Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN TEST : Started]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP34]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP36]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN TEST : End]]>
+    </line>
+    <line>
+      <![CDATA[UNCLAIMED TAB TEST : Started]]>
+    </line>
+    <line>
+      <![CDATA[Unclaimed Tab:Clicked
+]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP42]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP44]]>
+    </line>
+    <line>
+      <![CDATA[Unclaimed count: 1]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP47]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[CLAIM THIS QUERY ICON : Clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP50]]>
+    </line>
+    <line>
+      <![CDATA[UNCLAIMED TAB TEST : End]]>
+    </line>
+    <line>
+      <![CDATA[CHATS TAB TEST: Started
+]]>
+    </line>
+    <line>
+      <![CDATA[STEP53]]>
+    </line>
+    <line>
+      <![CDATA[CLAIMED COUNT: 1]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP56]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP58]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP60]]>
+    </line>
+    <line>
+      <![CDATA[STEP61]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP63]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP65]]>
+    </line>
+    <line>
+      <![CDATA[DIALOG YES OR NO: Yes clicked]]>
+    </line>
+    <line>
+      <![CDATA[STEP67]]>
+    </line>
+    <line>
+      <![CDATA[CHATS TAB TEST: End]]>
+    </line>
+    <line>
+      <![CDATA[SIGNOUT TEST : Started]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 10 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP72]]>
+    </line>
+    <line>
+      <![CDATA[Profile Tab: Icon Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 10 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP75]]>
+    </line>
+    <line>
+      <![CDATA[SIGN OUT: Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 5 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 10 seconds........]]>
+    </line>
+    <line>
+      <![CDATA[STEP79]]>
+    </line>
+    <line>
+      <![CDATA[DIALOG YES OR NO: Yes clicked]]>
+    </line>
+    <line>
+      <![CDATA[Logout : Logged Out Successfully....]]>
+    </line>
+    <line>
+      <![CDATA[STEP82]]>
+    </line>
+    <line>
+      <![CDATA[SIGNOUT TEST : End]]>
+    </line>
+  </reporter-output>
+  <suite name="TestOnceCycle" duration-ms="282524" started-at="2017-05-31T09:14:19Z" finished-at="2017-05-31T09:19:01Z">
+    <groups>
+    </groups>
+    <test name="Sprint1_OnceCycle" duration-ms="282524" started-at="2017-05-31T09:14:19Z" finished-at="2017-05-31T09:19:01Z">
+      <class name="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]" name="OpenBrowser" is-config="true" duration-ms="67740" started-at="2017-05-31T14:44:19Z" finished-at="2017-05-31T14:45:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[Browser Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="facebook()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]" name="facebook" duration-ms="67200" started-at="2017-05-31T14:45:27Z" finished-at="2017-05-31T14:46:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[FaceBook Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[USER NAME :markreevs0@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+            <line>
+              <![CDATA[PASSWORD: P@ssw0rd2]]>
+            </line>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[Login Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Chat Icon clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+            <line>
+              <![CDATA[View more chat details tab clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+            <line>
+              <![CDATA[SBSA South Africa value Entered]]>
+            </line>
+            <line>
+              <![CDATA[SBSA logo clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP18]]>
+            </line>
+            <line>
+              <![CDATA[Hello value entered]]>
+            </line>
+            <line>
+              <![CDATA[STEP20]]>
+            </line>
+            <line>
+              <![CDATA[STEP21]]>
+            </line>
+            <line>
+              <![CDATA[Send button clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP23]]>
+            </line>
+            <line>
+              <![CDATA[Logout dropdown button clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP25]]>
+            </line>
+            <line>
+              <![CDATA[Logout tab clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]" name="CloseBrowser" is-config="true" duration-ms="8638" started-at="2017-05-31T14:46:34Z" finished-at="2017-05-31T14:46:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP27]]>
+            </line>
+            <line>
+              <![CDATA[Browser Close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute -->
+      <class name="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]" name="setUp" is-config="true" duration-ms="23421" started-at="2017-05-31T14:46:42Z" finished-at="2017-05-31T14:47:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP29]]>
+            </line>
+            <line>
+              <![CDATA[Page Load Initiated: Waiting to load page.......]]>
+            </line>
+            <line>
+              <![CDATA[Page Load Status: Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]" name="testLogin" duration-ms="20001" started-at="2017-05-31T14:47:06Z" finished-at="2017-05-31T14:47:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN TEST : Started]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP34]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP36]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[LOGIN TEST : End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testUnclaimed()[pri:2, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]" name="testUnclaimed" duration-ms="22298" started-at="2017-05-31T14:47:26Z" finished-at="2017-05-31T14:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UNCLAIMED TAB TEST : Started]]>
+            </line>
+            <line>
+              <![CDATA[Unclaimed Tab:Clicked
+]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP42]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP44]]>
+            </line>
+            <line>
+              <![CDATA[Unclaimed count: 1]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP47]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[CLAIM THIS QUERY ICON : Clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP50]]>
+            </line>
+            <line>
+              <![CDATA[UNCLAIMED TAB TEST : End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUnclaimed -->
+        <test-method status="PASS" signature="testClaimed()[pri:3, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]" name="testClaimed" duration-ms="30868" started-at="2017-05-31T14:47:48Z" finished-at="2017-05-31T14:48:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CHATS TAB TEST: Started
+]]>
+            </line>
+            <line>
+              <![CDATA[STEP53]]>
+            </line>
+            <line>
+              <![CDATA[CLAIMED COUNT: 1]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP56]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP58]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP60]]>
+            </line>
+            <line>
+              <![CDATA[STEP61]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP63]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP65]]>
+            </line>
+            <line>
+              <![CDATA[DIALOG YES OR NO: Yes clicked]]>
+            </line>
+            <line>
+              <![CDATA[STEP67]]>
+            </line>
+            <line>
+              <![CDATA[CHATS TAB TEST: End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testClaimed -->
+        <test-method status="PASS" signature="testSignOut()[pri:4, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]" name="testSignOut" duration-ms="41876" started-at="2017-05-31T14:48:19Z" finished-at="2017-05-31T14:49:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SIGNOUT TEST : Started]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 10 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP72]]>
+            </line>
+            <line>
+              <![CDATA[Profile Tab: Icon Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 10 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP75]]>
+            </line>
+            <line>
+              <![CDATA[SIGN OUT: Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 5 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for 10 seconds........]]>
+            </line>
+            <line>
+              <![CDATA[STEP79]]>
+            </line>
+            <line>
+              <![CDATA[DIALOG YES OR NO: Yes clicked]]>
+            </line>
+            <line>
+              <![CDATA[Logout : Logged Out Successfully....]]>
+            </line>
+            <line>
+              <![CDATA[STEP82]]>
+            </line>
+            <line>
+              <![CDATA[SIGNOUT TEST : End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignOut -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]" name="testDown" is-config="true" duration-ms="164" started-at="2017-05-31T14:49:01Z" finished-at="2017-05-31T14:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.BankerChat.testScript.Sprint1_FullCycle.TestExecute -->
+    </test> <!-- Sprint1_OnceCycle -->
+  </suite> <!-- TestOnceCycle -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestOnceCycle]">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.BankerChat.customListner.Listner"/>
+  </listeners>
+  <test name="Sprint1_OnceCycle(failed)">
+    <classes>
+      <class name="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute">
+        <methods>
+          <include name="testSignOut"/>
+          <include name="setUp"/>
+          <include name="testDown"/>
+        </methods>
+      </class> <!-- com.BankerChat.testScript.Sprint1_FullCycle.TestExecute -->
+      <class name="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute -->
+    </classes>
+  </test> <!-- Sprint1_OnceCycle(failed) -->
+</suite> <!-- Failed suite [TestOnceCycle] -->

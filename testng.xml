@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestOnceCycle">
+	<test name="Sprint1_OnceCycle">
+	
+		<classes>
+			<class name="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute"/>
+			<class name="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute"/>
+			
+		</classes>
+	</test>
+		
+<listeners>
+		<listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      	<listener class-name="com.BankerChat.customListner.Listner" />
+	</listeners>
+	
+</suite>

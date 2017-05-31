@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sprint1_OnceCycle"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="67.200">
+  <properties />
+  
+  
+            <testcase name="facebook" time="67.200" classname="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute" />
+      
+</testsuite>

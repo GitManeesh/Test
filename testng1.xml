@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Re_Assign">
+	<test name="Sprint2_Reassign">
+	
+		<classes>
+			<class name="com.BankerChat.testScript.Sprint2_Reassign.FacebookExecute"/>
+			<class name="com.BankerChat.testScript.Sprint2_Reassign.Test_Reassign"/>
+			<class name="com.BankerChat.testScript.Sprint2_Reassign.TestAccept_Re_assign"/>
+		</classes>
+	</test>
+	
+<listeners>
+		<listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      	<listener class-name="com.BankerChat.customListner.Listner" />
+	</listeners>
+	
+</suite>

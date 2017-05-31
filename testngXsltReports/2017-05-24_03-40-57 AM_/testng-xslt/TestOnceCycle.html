@@ -1,0 +1,1783 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>TestOnceCycle</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">5</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">5</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">0%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">33s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byStatus_failed_FAIL1_details')">facebook()</a>
+               </td>
+               <td nowrap="true">03:41:17</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 6 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir11660_24531},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 45b924e786f74bec4e09fb16ec8945ed
+                     *** Element info: {Using=xpath, value=//input[@id='email']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>facebook
+                     </div>
+                     <div>
+                        <b>Signature: </b>facebook()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:17
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 6 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir11660_24531},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 45b924e786f74bec4e09fb16ec8945ed
+                        *** Element info: {Using=xpath, value=//input[@id='email']}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.Facebook.FacebookTest.FBLogin(FacebookTest.java:66)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute.facebook(FacebookExecute.java:19)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byStatus_failed_FAIL2_details')">testLogin()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">35 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byStatus_failed_FAIL2_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 18 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=.//*[@id='topContainer']/div/form/div[2]/input[1]}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>testLogin()[pri:1, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>35 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 18 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=.//*[@id='topContainer']/div/form/div[2]/input[1]}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.loginpage.LoginPage.loginToApplication(LoginPage.java:27)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testLogin(TestExecute.java:24)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byStatus_failed_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byStatus_failed_FAIL3_details')">testUnclaimed()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">54 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byStatus_failed_FAIL3_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 0 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=//*[@id='leftContainer']/div/div[1]/div[2]/div[2]}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byStatus_failed_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testUnclaimed
+                     </div>
+                     <div>
+                        <b>Signature: </b>testUnclaimed()[pri:2, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>54 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byStatus_failed_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 0 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=//*[@id='leftContainer']/div/div[1]/div[2]/div[2]}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.Unclaimed.UnClaimed1.UnclaimedChat(UnClaimed1.java:38)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testUnclaimed(TestExecute.java:30)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byStatus_failed_FAIL4_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byStatus_failed_FAIL4_details')">testClaimed()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">109 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byStatus_failed_FAIL4_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 4 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=//div[@ng-click='showConvo()']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byStatus_failed_FAIL4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testClaimed
+                     </div>
+                     <div>
+                        <b>Signature: </b>testClaimed()[pri:3, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>109 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byStatus_failed_FAIL4_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 4 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=//div[@ng-click='showConvo()']}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.Chat.Chat.ClaimedChat(Chat.java:30)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testClaimed(TestExecute.java:36)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byStatus_failed_FAIL5_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byStatus_failed_FAIL5_details')">testSignOut()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byStatus_failed_FAIL5_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 8 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=//div[@class='headerProfileImageContainer']/img[@ng-show='!ooo']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byStatus_failed_FAIL5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testSignOut
+                     </div>
+                     <div>
+                        <b>Signature: </b>testSignOut()[pri:4, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byStatus_failed_FAIL5_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 8 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=//div[@class='headerProfileImageContainer']/img[@ng-show='!ooo']}
+                        	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.Profile.Profile.signOut(Profile.java:35)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testSignOut(TestExecute.java:42)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byStatus_failed_FAIL6_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byStatus_failed_FAIL6_details')">testDown()</a>
+               </td>
+               <td nowrap="true">03:41:35</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byStatus_failed_FAIL6_exception')">org.openqa.selenium.WebDriverException: 
+                     chrome not reachable
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 2.02 seconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byStatus_failed_FAIL6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>testDown()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:35
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byStatus_failed_FAIL6_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: chrome not reachable
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 2.02 seconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:659)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:488)
+                        	at com.BankerChat.TestSuiteBase.TestBase.closeBrowser(TestBase.java:147)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testDown(TestExecute.java:47)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+                        	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_OpenBrowser_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_OpenBrowser_byStatus_passed_PASS1_details')">OpenBrowser()</a>
+               </td>
+               <td nowrap="true">03:41:03</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_OpenBrowser_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>OpenBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>OpenBrowser()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:03
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_CloseBrowser_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_CloseBrowser_byStatus_passed_PASS2_details')">CloseBrowser()</a>
+               </td>
+               <td nowrap="true">03:41:21</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_CloseBrowser_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>CloseBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>CloseBrowser()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:21
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_setUp_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_setUp_byStatus_passed_PASS3_details')">setUp()</a>
+               </td>
+               <td nowrap="true">03:41:23</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_setUp_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setUp
+                     </div>
+                     <div>
+                        <b>Signature: </b>setUp()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:23
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_OpenBrowser_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_OpenBrowser_byClass_PASS1_details')">OpenBrowser()</a>
+               </td>
+               <td nowrap="true">03:41:03</td>
+               <td nowrap="true" align="right">13s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_OpenBrowser_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>OpenBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>OpenBrowser()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:03
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:17
+                     </div>
+                     <div>
+                        <b>Duration: </b>13s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byClass_FAIL2_details')">facebook()</a>
+               </td>
+               <td nowrap="true">03:41:17</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 6 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir11660_24531},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 45b924e786f74bec4e09fb16ec8945ed
+                     *** Element info: {Using=xpath, value=//input[@id='email']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>facebook
+                     </div>
+                     <div>
+                        <b>Signature: </b>facebook()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:17
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:21
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_facebook_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 6 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir11660_24531},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 45b924e786f74bec4e09fb16ec8945ed
+                        *** Element info: {Using=xpath, value=//input[@id='email']}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.Facebook.FacebookTest.FBLogin(FacebookTest.java:66)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute.facebook(FacebookExecute.java:19)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_CloseBrowser_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_CloseBrowser_byClass_PASS3_details')">CloseBrowser()</a>
+               </td>
+               <td nowrap="true">03:41:21</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute_CloseBrowser_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>CloseBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>CloseBrowser()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.FacebookExecute@56ef9176]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:21
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.BankerChat.testScript.Sprint1_FullCycle.TestExecute</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_setUp_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_setUp_byClass_PASS1_details')">setUp()</a>
+               </td>
+               <td nowrap="true">03:41:23</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_setUp_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setUp
+                     </div>
+                     <div>
+                        <b>Signature: </b>setUp()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:23
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byClass_FAIL2_details')">testLogin()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">35 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 18 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=.//*[@id='topContainer']/div/form/div[2]/input[1]}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>testLogin()[pri:1, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>35 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testLogin_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 18 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=.//*[@id='topContainer']/div/form/div[2]/input[1]}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.loginpage.LoginPage.loginToApplication(LoginPage.java:27)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testLogin(TestExecute.java:24)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byClass_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byClass_FAIL3_details')">testUnclaimed()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">54 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byClass_FAIL3_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 0 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=//*[@id='leftContainer']/div/div[1]/div[2]/div[2]}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byClass_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testUnclaimed
+                     </div>
+                     <div>
+                        <b>Signature: </b>testUnclaimed()[pri:2, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>54 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testUnclaimed_byClass_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 0 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=//*[@id='leftContainer']/div/div[1]/div[2]/div[2]}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.Unclaimed.UnClaimed1.UnclaimedChat(UnClaimed1.java:38)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testUnclaimed(TestExecute.java:30)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byClass_FAIL4_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byClass_FAIL4_details')">testClaimed()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">109 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byClass_FAIL4_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 4 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=//div[@ng-click='showConvo()']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byClass_FAIL4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testClaimed
+                     </div>
+                     <div>
+                        <b>Signature: </b>testClaimed()[pri:3, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>109 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testClaimed_byClass_FAIL4_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 4 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=//div[@ng-click='showConvo()']}
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.Chat.Chat.ClaimedChat(Chat.java:30)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testClaimed(TestExecute.java:36)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byClass_FAIL5_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byClass_FAIL5_details')">testSignOut()</a>
+               </td>
+               <td nowrap="true">03:41:30</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byClass_FAIL5_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     no such window: target window already closed
+                     from unknown error: web view not found
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 8 milliseconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     *** Element info: {Using=xpath, value=//div[@class='headerProfileImageContainer']/img[@ng-show='!ooo']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byClass_FAIL5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testSignOut
+                     </div>
+                     <div>
+                        <b>Signature: </b>testSignOut()[pri:4, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:30
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testSignOut_byClass_FAIL5_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+                        from unknown error: web view not found
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 8 milliseconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        *** Element info: {Using=xpath, value=//div[@class='headerProfileImageContainer']/img[@ng-show='!ooo']}
+                        	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getLocator(TestBase.java:104)
+                        	at com.BankerChat.TestSuiteBase.TestBase.getWebElement(TestBase.java:139)
+                        	at com.BankerChat.PageLibrary.Profile.Profile.signOut(Profile.java:35)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testSignOut(TestExecute.java:42)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byClass_FAIL6_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byClass_FAIL6_details')">testDown()</a>
+               </td>
+               <td nowrap="true">03:41:35</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byClass_FAIL6_exception')">org.openqa.selenium.WebDriverException: 
+                     chrome not reachable
+                     (Session info: chrome=58.0.3029.110)
+                     (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 2.02 seconds
+                     Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                     System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                     '1.8.0_20-ea'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                     chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                     takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                     platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                     browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                     Session ID: 535039d8cafca0bc52922119a57b1f07
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byClass_FAIL6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testDown
+                     </div>
+                     <div>
+                        <b>Signature: </b>testDown()[pri:0, instance:com.BankerChat.testScript.Sprint1_FullCycle.TestExecute@4566e5bd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>03:41:35
+                     </div>
+                     <div>
+                        <b>End time: </b>03:41:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.BankerChat.testScript.Sprint1_FullCycle.TestExecute_testDown_byClass_FAIL6_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: chrome not reachable
+                        (Session info: chrome=58.0.3029.110)
+                        (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 2.02 seconds
+                        Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+                        System info: host: 'LENOVO', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version:
+                        '1.8.0_20-ea'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false,
+                        chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir4516_10117},
+                        takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110,
+                        platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true,
+                        browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+                        Session ID: 535039d8cafca0bc52922119a57b1f07
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:659)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:488)
+                        	at com.BankerChat.TestSuiteBase.TestBase.closeBrowser(TestBase.java:147)
+                        	at com.BankerChat.testScript.Sprint1_FullCycle.TestExecute.testDown(TestExecute.java:47)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:483)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+                        	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

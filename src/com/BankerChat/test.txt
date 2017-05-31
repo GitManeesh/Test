@@ -1,0 +1,24 @@
+ Volume in drive E is New Volume
+ Volume Serial Number is 849F-74C7
+
+ Directory of E:\BankerChat\Workspace\BankerChatWithATUReporter-new\src\com\BankerChat
+
+07-05-2017  00:02    <DIR>          .
+07-05-2017  00:02    <DIR>          ..
+01-03-2017  23:21    <DIR>          BrowserDrivers
+01-03-2017  23:21    <DIR>          configuration
+01-03-2017  23:21    <DIR>          customListner
+01-03-2017  23:21    <DIR>          excelReader
+01-03-2017  23:21    <DIR>          Facebook
+01-03-2017  23:21    <DIR>          log
+01-03-2017  23:21    <DIR>          PageLibrary
+01-03-2017  23:21    <DIR>          pageLocator
+01-03-2017  23:21    <DIR>          ReportTestNG
+12-03-2017  18:35    <DIR>          screenShot
+07-05-2017  00:02                 0 test.txt
+01-03-2017  23:21    <DIR>          testData
+03-03-2017  21:42    <DIR>          testScript
+01-03-2017  23:21    <DIR>          TestSuiteBase
+01-03-2017  23:21    <DIR>          utility
+               1 File(s)              0 bytes
+              16 Dir(s)   7,522,222,080 bytes free
