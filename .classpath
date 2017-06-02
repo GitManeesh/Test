@@ -3,10 +3,21 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_20"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="src/JarFiles/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="src/JarFiles/ATUReporter_Selenium_testNG_5.1.1.jar"/>
+	<classpathentry kind="lib" path="src/JarFiles/selenium-java-2.52.0-srcs.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/JarFiles/selenium-java-2.52.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="src/JarFiles/ant-1.7.0.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/ant-launcher-1.7.0.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/extentreports-2.41.2.jar"/>
-	<classpathentry kind="lib" path="src/JarFiles/freemarker-2.3.23.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/bson-3.0.4.jar"/>
@@ -76,16 +87,6 @@
 	<classpathentry kind="lib" path="src/JarFiles/saxon-8.7.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/saxon8-dom.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/SaxonLiaison.jar"/>
-	<classpathentry kind="lib" path="src/JarFiles/selenium-java-2.52.0-srcs.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="src/JarFiles/selenium-java-2.52.0.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="src/JarFiles/serializer-2.7.2.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/snakeyaml-1.15.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/sqlite-jdbc-3.8.11.1.jar"/>
@@ -100,8 +101,7 @@
 	<classpathentry kind="lib" path="src/JarFiles/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/RSA_Execute.jar"/>
-	<classpathentry kind="lib" path="src/JarFiles/ATUReporter_Selenium_testNG_5.1.1.jar"/>
-	<classpathentry kind="lib" path="src/JarFiles/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="src/JarFiles/freemarker-2.3.23.jar"/>
 	<classpathentry kind="lib" path="src/JarFiles/guice-3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
